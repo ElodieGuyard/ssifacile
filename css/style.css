@@ -1,0 +1,38 @@
+:root {
+  --bg: #fff8e8;        /* fond de page */
+  --surface: #ffdf9b;       /* cartes, un cran plus clair */
+  --text: #140c01;          /* texte principal */
+  --text-muted: #3f2c01;    /* texte secondaire */
+  --accent: #eb8613;        /* l'orange */
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.navbar {
+  background-color: var(--surface);
+  padding: 0 20px;
+}
+
+.nav-list {
+  list-style: none; /* Supprime les puces */
+  margin: 0;        /* Enlève la marge extérieure par défaut */
+  padding: 0;       /* Enlève le retrait gauche par défaut */
+  display: flex;    /* Aligne les éléments horizontalement */
+  gap: 24px;        /* Espace entre les liens */
+}
+
+.nav-list a {
+  display: block;
+  padding: 16px 0;
+  color: #000000;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+
+.nav-list a:hover {
+  color: #ff8944;
+}
