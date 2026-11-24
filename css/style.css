@@ -1,6 +1,6 @@
 :root {
-  --bg: #fff8e8;        /* fond de page */
-  --surface: #ffdf9b;       /* cartes, un cran plus clair */
+  --bg: #fff8e8;            /* fond de page */
+  --surface: #fce1af;       /* cartes, un cran plus clair */
   --text: #140c01;          /* texte principal */
   --text-muted: #3f2c01;    /* texte secondaire */
   --accent: #eb8613;        /* l'orange */
@@ -14,6 +14,7 @@ body {
 .navbar {
   background-color: var(--surface);
   padding: 0 20px;
+  box-shadow: 0 4px 12px rgba(65, 45, 35, 0.15);
 }
 
 .nav-list {
@@ -27,12 +28,12 @@ body {
 .nav-list a {
   display: block;
   padding: 16px 0;
-  color: #000000;
+  color: var(--text);
   text-decoration: none;
   font-family: sans-serif;
 }
 
 
 .nav-list a:hover {
-  color: #ff8944;
+  color: var(--accent)
 }
