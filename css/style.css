@@ -19,6 +19,9 @@ body {
   padding: 0 20px;
   box-shadow: 0 4px 12px rgba(65, 45, 35, 0.15);
   border-radius: 10px;
+  display: flex;                   /* logo et liste côte à côte */
+  justify-content: space-between;  /* logo à gauche, liens à droite */
+  align-items: center;             /* centrés verticalement */
 }
 
 .nav-list {
@@ -31,7 +34,7 @@ body {
 
 .nav-list a {
   display: block;
-  padding: 16px 0;
+  padding: 8px 0;
   color: var(--text);
   text-decoration: none;
   font-family: sans-serif;
@@ -39,6 +42,13 @@ body {
 
 .nav-list a:hover {
   color: var(--accent);
+}
+
+.logo img {
+  display: block;  /* supprime l'espace fantôme sous l'image */
+  height: 50px;
+  width: auto;
+  padding: 8px;
 }
 
 .card {
