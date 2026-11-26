@@ -1,6 +1,6 @@
 :root {
-  --bg: #fff8e8;            /* fond de page */
-  --surface: #fce1af;       /* cartes, un cran plus clair */
+  --bg: #f0e5cb;            /* fond de page */
+  --surface: #f1f1f1;       /* cartes, un cran plus clair */
   --text: #140c01;          /* texte principal */
   --text-muted: #3f2c01;    /* texte secondaire */
   --accent: #eb8613;        /* l'orange */
@@ -17,7 +17,7 @@ body {
 .navbar {
   background-color: var(--surface);
   padding: 0 20px;
-  box-shadow: 0 4px 12px rgba(65, 45, 35, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 10px;
   display: flex;                   /* logo et liste côte à côte */
   justify-content: space-between;  /* logo à gauche, liens à droite */
@@ -61,6 +61,7 @@ body {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 100%;
   overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .card img {
