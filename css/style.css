@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Luciole";
+  src: url("../font/Luciole-Regular.woff2") format("woff2");
+  font-weight: 400;           /* normal */
+  font-style: normal;
+  font-display: swap;         /* affiche le texte tout de suite, même avant le chargement de la police */
+}
+
 :root {
   --bg: #f0e5cb;            /* fond de page */
   --surface: #f1f1f1;       /* cartes, un cran plus clair */
@@ -7,6 +15,7 @@
 }
 
 body {
+  font-family: "Luciole", sans-serif;
   background: var(--bg);
   color: var(--text);
   max-width: 1500px;
@@ -17,7 +26,7 @@ body {
 .navbar {
   background-color: var(--surface);
   padding: 0 20px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   border-radius: 10px;
   display: flex;                   /* logo et liste côte à côte */
   justify-content: space-between;  /* logo à gauche, liens à droite */
